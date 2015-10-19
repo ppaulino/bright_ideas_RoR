@@ -1,0 +1,13 @@
+<div class="row">
+	<a class="btn btn-primary" href="/posts/">« Back to Bright Ideas</a>
+	<a class="btn btn-danger" href="/signout/">Logout</a>		
+</div>
+
+<div class="row">
+	<h3>Name: <%= current_user.name %></h3>
+	<h3>Alias: <%= current_user.alias %></h3>
+	<h3>Email: <%= current_user.email %></h3>
+	<hr>
+	<h4>Total Number of Posts: <%= @postCounter %></h4>
+	<h4>Total Number of Likes: <%= @likesCounter %></h4>
+</div>
